@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+                    <!--Head - Cabeça do meu HTML-->
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <!--Titulo - Do meu HTML-->
+            <title>Contato</title>
+
+                    <!--Icone/Fonts Do Meu HTML-->
+            <link rel="icon" href="/img/logo.png"type="image/x-icon">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https: //fonts.googleapis.com/css2? family= Montserrat & display=swap" rel="stylesheet">
+                    <!--Validando meu Css dentro do HTML-->  
+            <link rel="stylesheet" href="/css/style.css">
+        </head>
+        
+                    <!-- Body - Corpo Do meu HTML-->
+        <body class="bodyContact">
+                    <!--Header - Cabeçalho Do HTML-->
+            <header class="headerContact">
+                <nav>
+                    <img src="/img/logo.png" alt="logo" class="logo">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="catalogo.html">Catálogo</a></li>
+                        <li><a href="contato.html" class="currentPage">Contato</a></li>
+                     </ul>
+                </nav>
+                    <img src="/img/contatotitle.png" alt="" class="headerContact">
+            </header>
+
+                    <!--Main - Principal Do Meu HTML-->
+    <main class="mainContact">
+        <div class="container flex flex-column text-center">
+
+            <h2 class="titleContact">Entre em contato</h2>
+            <p class="TextContact">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A autem, officia fuga dolorum beatae hic rem. Voluptates, placeat recusandae ea, nostrum saepe, consequuntur enim repudiandae possimus iusto provident corrupti quod!</p>
+            
+            <!--Dentro do Form/"Formato" um Painel Fale com Nosco-->
+            <form>
+                <div class="formContainerContact">
+                    <div class="formInputsContact">
+                        <input type="text" name="inputName" id="inputName" placeholder="Nome" class="inputLayout colorForm Inputtext1">
+                        <input type="email" name="inputEmail" id="inputEmail" placeholder="Email" class="inputLayout colorForm Inputtext2">
+                        <input type="tel" name="inputTel" id="inputTel" placeholder="Telefone" class="inputLayout colorForm Inputtext3">
+                    </div>
+                     <textarea name="inputComment" id="inputComment" cols="30" rows="9" placeholder="Como podemos ajudá-lo?" maxlength="250" class="inputLayoutTextArea colorForm"></textarea> 
+                    </div>
+                    <input type="submit" value="Enviar" class="ContactSubmitButton BorderButtonContact"> 
+            </form>
+            </div>
+    </main>
+</body>
+</html>
